@@ -1,6 +1,0 @@
-## **Conteudo Dos Treinamentos Pluralsight**
-
-
-
-
-
