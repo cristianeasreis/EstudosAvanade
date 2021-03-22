@@ -27,12 +27,19 @@
 > - Analisar e melhorar seu trabalho e dos demais
 > - Encarar o aprendizado como um laboratório.
 >
+> **Setup**
+>
+> Baixar VS Code
+>
+> extensões code runner
+>
+> Git 
+>
+> workbench - banco de dados - https://dev.mysql.com/downloads/workbench/
+>
 > 
-
-#### 
-
-#### 
-
+>
+> 
 
 
 
