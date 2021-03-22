@@ -37,15 +37,6 @@
 >
 > workbench - banco de dados - https://dev.mysql.com/downloads/workbench/
 >
-> 
->
-> 
-
-
-
-
-
-
 
 
 
