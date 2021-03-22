@@ -72,4 +72,30 @@
 >
 > É um código associado definido como uma classe e informações adicionais definidas com metadados.
 >
+> **GitHub Repository**
+>
+> Deborahk / Angular- GettingStarted.
+>
+> **Sample Application Architecture**
+>
+> Vamos dividir o aplicativo de amostra em componentes e serviços.
+>
+> Para a página de boas -vindas , construiremos m componente de boas-vindas.
+>
+> Para o Produto página de lista , vamos construir um componente de lista de produtos.
+>
+> lembre-se que teve uma bela exibição visual de estrelas para nossas classificações.
+>
+> Queremos reutilizar esse recurso então vamos construir um componente estrela separado.
+>
+> Clicar em um produto na página Lista de produtos exibiu os detalhes do produto.
+>
+> Vamos construir um componente para isso também e reutilizar o componente estrela.
+>
+> Então precisamos de que um componente de aplicativo que amarre como peças de nossa aplicação.
+>
+> E nosso obtém dados, então queremos um serviço de dados do produto.
+>
+> Por último precisamos de um arquivo index.html.
+>
 > 
