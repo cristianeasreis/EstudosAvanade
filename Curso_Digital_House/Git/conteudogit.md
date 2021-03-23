@@ -58,6 +58,28 @@
 
 **git add ./e o caminho**
 
+**git pull**
+
+**quanto tiver dando erro git pull** 
+
+**git push** 
+
+**comando para trazer todos os repositórios**
+
+**git fetch**
+
+**git branch**
+
+**git fetch -- all**
+
+**git branch - a**
+
+**git branch - r**
+
+**git checkout -b**
+
+
+
 
 
 
@@ -72,3 +94,6 @@
 **GIT ADD**
 
 **GIT COMMINT -M  Primeiro Comentário**
+
+
+
