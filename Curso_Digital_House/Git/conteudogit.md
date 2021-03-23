@@ -50,66 +50,11 @@
 
 **git checkout - b hobbies**
 
+**git push --set-upstream origin** 
+
 **set a branch - é  so copiar e colar** **- para poder comentar**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**git add ./e o caminho**
 
 
 
@@ -127,16 +72,3 @@
 **GIT ADD**
 
 **GIT COMMINT -M  Primeiro Comentário**
-
-
-
-
-
-
-
-
-
-
-
-
-
