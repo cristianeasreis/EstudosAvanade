@@ -70,7 +70,7 @@
 
 **git branch**
 
-**git fetch -- all**
+**git fetch -- all** 
 
 **git branch - a**
 
