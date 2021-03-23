@@ -36,6 +36,36 @@
 
 **git commit -m "readme modificado"**
 
+**git push**
+
+**git pull**
+
+**git status**
+
+**git log**
+
+**Criar Branchs**
+
+**git branch**  - **ela monstra em que branch você está** 
+
+**git checkout - b hobbies**
+
+**set a branch - é  so copiar e colar** **- para poder comentar**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
