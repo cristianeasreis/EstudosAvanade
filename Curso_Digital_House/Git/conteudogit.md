@@ -44,6 +44,8 @@
 
 **git log**
 
+
+
 **Criar Branchs**
 
 **git branch**  - **ela monstra em que branch você está** 
@@ -55,6 +57,10 @@
 **set a branch - é  so copiar e colar** **- para poder comentar**
 
 **git add ./e o caminho**
+
+
+
+
 
 
 
