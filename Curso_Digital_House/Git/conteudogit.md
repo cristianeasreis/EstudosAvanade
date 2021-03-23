@@ -50,11 +50,13 @@
 
 **git checkout - b hobbies**
 
-**git push --set-upstream origin** 
+**git push --set-upstream origin - Ele liga a branch local com a Remota**
 
 **set a branch - é  so copiar e colar** **- para poder comentar**
 
 **git add ./e o caminho**
+
+
 
 
 
