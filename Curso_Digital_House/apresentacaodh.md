@@ -1,9 +1,5 @@
 ## Mapa Do Dev - Atuação
 
-
-
-> 
->
 > - **Desenvolvedor Full Stack**
 > - **Desenvolvedor Front - End**
 > - **Desenvolvedor - Back - End**
