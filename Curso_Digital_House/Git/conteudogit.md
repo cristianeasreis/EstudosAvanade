@@ -1,5 +1,3 @@
-
-
 ### **Git -** é a ferramenta de versionamento
 
 #### GitHub - é um dos repositórios remotos
@@ -96,20 +94,77 @@
 
 **git push --set-upstream origin hobbies**
 
+**git remote add origin**
+
+**para abrir a pasta code .**
+
+**git status**
+
+**git add.**
+
+**git commit- m ""**
+
+**git push origin main**
+
+**Pull request - e para analisar e conferir codigo**
+
+**File changed**
+
+**git push -u origin master**
+
+**PR  - sigla do pull request**
+
+**git log -- graph --oneline** 
+
+ **para sair shif + q**
+
+**para converter o commit - git revert** 
+
+**git reset -- soft  e a chave** 
+
+**git reset -- mixed**
+
+**git reset -- Hard**
+
+**soft retira o commit da arvore mas mantem no stage mixer tira da arvore e do stage e o harder tira tudo e mais as alterações**
+
+https://git-scm.com/docs/git-reset
+
+**git checkout e a chave**
+
+**git checkout main**
 
 
 
-### **Git -** é a ferramenta de versionamento
 
-#### GitHub - é um dos repositórios remotos
 
-**CLI**
 
-**GIT INIT**
 
-**GIT ADD**
 
-**GIT COMMINT -M  Primeiro Comentário**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
