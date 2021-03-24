@@ -134,6 +134,20 @@ https://git-scm.com/docs/git-reset
 
 **git checkout main**
 
+**Rebase and merge**  - **qualquer mínimo conflito ele recusa na hora** 
+
+**Squash and merge** 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
