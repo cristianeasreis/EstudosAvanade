@@ -134,9 +134,9 @@ https://git-scm.com/docs/git-reset
 
 **git checkout main**
 
-**Rebase and merge**  - **qualquer mínimo conflito ele recusa na hora** 
+**Rebase and merge**  - **qualquer mínimo conflito ele recusa na hora** - **pegas os commits e joga para principal** 
 
-**Squash and merge** 
+**Squash and merge**  **Serve para juntar**
 
 
 
