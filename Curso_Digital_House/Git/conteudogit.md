@@ -120,11 +120,13 @@
 
 **para converter o commit - git revert** 
 
-**git reset -- soft  e a chave** 
+**git reset -- soft  e a chave** -  **ele retorna um commit**
 
-**git reset -- mixed**
+**git push origin -f  - ele esta forçando o commit**
 
-**git reset -- Hard**
+**git reset -- mixed** - **tira da arvore e do stage** 
+
+**git reset -- Hard** **- tira tudo e mais as alterações**
 
 **soft retira o commit da arvore mas mantem no stage mixer tira da arvore e do stage e o harder tira tudo e mais as alterações**
 
@@ -137,6 +139,16 @@ https://git-scm.com/docs/git-reset
 **Rebase and merge**  - **qualquer mínimo conflito ele recusa na hora** - **pegas os commits e joga para principal** 
 
 **Squash and merge**  **Serve para juntar**
+
+**git reset - ele volta do stage**
+
+**gitgnore**
+
+
+
+
+
+
 
 
 
