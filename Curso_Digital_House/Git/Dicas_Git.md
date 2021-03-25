@@ -66,6 +66,36 @@ Deseleciona o arquivo, mas preserva seu conteúdo.
 
 Grava o snapshot permanentemente do arquivo no histórico de versão.
 
+**MUDANÇAS EM GRUPO**
+
+Nomeie uma série de commits e combine os esforços completos.
+
+**$ git branch**
+
+Lista todos os branches locais no repositório atua.
+
+**$ git branch [nome-do-branch]**
+
+Cria um novo branch
+
+**$ git branch -b  [nome-do-branch]**
+
+Cria um novo branch e entrar direto na branch.
+
+**$ git checkout [nome-do-branch]**
+
+Muda para o branch específico e atualiza o diretório de trabalho
+
+
+
+
+
+
+
+
+
+
+
 
 
 
