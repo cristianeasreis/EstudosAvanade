@@ -10,8 +10,6 @@
 
 **GIT COMMINT -M  Primeiro Comentário**
 
-
-
 **Git -  O que é ?**
 
 - **Controle de versão**
