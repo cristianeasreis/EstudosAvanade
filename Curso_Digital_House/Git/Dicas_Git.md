@@ -24,6 +24,24 @@ Configura o email que você quer ligado as suas transações de commit
 
 Configura o email que você quer ligado as suas transações de commit
 
+ **CRIE REPOSITÓRIOS**
+
+Inicie um novo repositório ou obtenha de uma URL existente
+
+**$ git init [nome-do-projeto]**
+
+Cria um novo repositório local com um nome específico
+
+**$ git clone [url]**
+
+Baixa um projeto e seu histórico de versão inteiro
+
+
+
+
+
+
+
 
 
 
