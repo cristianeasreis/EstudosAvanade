@@ -9,7 +9,6 @@ const pessoa = { // 0x000084C7
 }
 
 
-
 /* if (pessoa.idade >= 18 && pessoa.habilitada) {
     console.log("Pode dirigir")
 }

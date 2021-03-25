@@ -44,7 +44,6 @@ console.log(valorTotal)
 
 
 
-
 const alunos = [
     {
         nome: 'Julia',
@@ -66,3 +65,4 @@ const statusAprovacao = alunos.map(aluno => {
 })
 
 console.log(statusAprovacao)
+
