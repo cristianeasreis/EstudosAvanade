@@ -12,9 +12,17 @@ https://windows.github.com
 
 Configure informações de usuário para todos os repositórios locais.
 
-$ git config --global user.name "[nome]"
+**$ git config --global user.name "[nome]"**
 
 Configura o nome que você quer ligado as suas transações de  commit 
+
+ $ **git config --global user.email "[endereco-de-email]"**
+
+Configura o email que você quer ligado as suas transações de commit
+
+**$ git config --global color.ui auto**
+
+Configura o email que você quer ligado as suas transações de commit
 
 
 
