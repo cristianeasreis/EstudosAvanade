@@ -86,6 +86,14 @@ Cria um novo branch e entrar direto na branch.
 
 Muda para o branch específico e atualiza o diretório de trabalho
 
+**$ git merge [branch]**
+
+Combina o histórico do branch específico com o branch atual
+
+**$ git branch -d [nome-do-branch]**
+
+Exclui o branch específico
+
 
 
 
