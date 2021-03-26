@@ -110,6 +110,26 @@ Lista o histórico de versões para um arquivo, incluindo mudanças de  nome.
 
 Mostra a diferença de conteúdo entre dois branches.
 
+**$ git show [commit]**
+
+Retorna mudanças de metadata e conteúdo para o commit especificado.
+
+**DESFAÇA COMMITS**
+
+Apague enganos e crie um histórico substituto.
+
+**$ git reset [commit]**
+
+Desfaz todos os commits depois de `[commit]`, preservando  mudanças locais.
+
+
+
+
+
+
+
+
+
 
 
 
