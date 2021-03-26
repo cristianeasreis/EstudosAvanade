@@ -122,11 +122,29 @@ Apague enganos e crie um histórico substituto.
 
 Desfaz todos os commits depois de `[commit]`, preservando  mudanças locais.
 
+**$ git reset --hard [commit]**
 
+Descarta todo histórico e mudanças para o commit especificado
 
+**SINCRONIZE MUDANÇAS**
 
+Registre um marcador de repositório e troque o histórico de versão.
 
+**$ git fetch [marcador]** 
 
+Baixe todo o histórico de um marcador de repositório
+
+**$ git merge [marcador]/[branch]** 
+
+Combina o marcador do branch no branch local
+
+**$ git push [alias] [branch]** 
+
+Envia todos os commits do branch local para o GitHub
+
+**$ git pull**
+
+Baixa o histórico e incorpora as mudanças
 
 
 
