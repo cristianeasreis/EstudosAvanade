@@ -94,23 +94,21 @@ Combina o histórico do branch específico com o branch atual
 
 Exclui o branch específico
 
+**REVISE HISTÓRICO**
 
+Navegue e inspecione a evolução dos arquivos do projeto
 
+**$ git log**
 
+Lista o histórico de versões para o branch atual.
 
+**$ git log --follow [arquivo]**
 
+Lista o histórico de versões para um arquivo, incluindo mudanças de  nome.
 
+**$ git diff [primerio-branch]...[segundo-branch]**
 
-
-
-
-
-
-
-
-
-
-
+Mostra a diferença de conteúdo entre dois branches.
 
 
 
