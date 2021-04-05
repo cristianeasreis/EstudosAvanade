@@ -50,5 +50,3 @@ Descreve o BD no nível do SGBD, ou seja, depende do tipo particular de SGBD que
 - Revista SQL Magazine 149
   Edição que tem como destaque o aprimoramento da sua auditoria: conheça o Oracle Audit Vault Server.
 
-
-
