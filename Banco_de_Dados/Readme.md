@@ -37,15 +37,6 @@ Uma das técnicas mais utilizadas dentre os profissionais da área é a abordage
 
 Descreve o BD no nível do SGBD, ou seja, depende do tipo particular de SGBD que será usado. Não podemos confundir com o Software que será usado. O tipo de SGBD que o modelo lógico trata é se o mesmo é relacional, orientado a objetos, hierárquico, etc.
 
-#### Links Úteis
-
-- JPQL: Escrevendo consultas na JPA
-  Aprender a consultar dados armazenados em bancos de dados relacionais é um importante passo na construção de sistemas.
-- Laravel: Como implementar um CRUD N:N
-  Neste curso veremos como desenvolver um CRUD em Laravel utilizando duas entidades que se relacionam de forma N:N.
-- PHP e MVC: Como fazer um CRUD 1:N
-  Neste curso você aprenderá a implementar um sistema de CRUD com duas entidades que se relacionam de forma 1:N em PHP, usando para isso o padrão arquitetural MVC.
-
 #### Saiba mais sobre SQL
 
 - Guias Banco de Dados
