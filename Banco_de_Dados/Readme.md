@@ -116,6 +116,30 @@ Revoke - Retira privilegios
 
 Select - obtém registro especificados de uma ou mais tabelas.
 
+https://dev.mysql.com/downloads/
+
+SQL - Constraints (Restrições)
+
+Restrições são regras aplicadas nas colunas de uma tabela.
+
+**Principais** 
+
+- NOT NULL  - Impõe a uma coluna a não aceitar valores nulos
+
+- UNIQUE -  Identifica de forma única cada registro em uma tabela de um banco de dados.
+
+- PRIMARY KEY - Chaves Primárias devem conter valores únicos -  não pode ter valores Null.
+
+- FOREIGN KEY - Chave Estrangeiras em uma é um campo que aponta para uma chave primaria em outra tabela . 
+
+- DEFAULT -  É usada para inserir um valor padrão em uma coluna.
+
+  O valor padrão será adicionado a todos os novos registros caso nenhum outro valor seja especificado.
+
+  
+
+
+
 
 
 
