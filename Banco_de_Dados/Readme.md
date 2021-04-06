@@ -48,5 +48,76 @@ Descreve o BD no nível do SGBD, ou seja, depende do tipo particular de SGBD que
 - Canal Banco de Dados
   Além dos últimos posts da revista SQL Magazine, listamos os últimos artigos, vídeos e cursos sobre os principais banco de dados existentes hoje no mercado.
 - Revista SQL Magazine 149
-  Edição que tem como destaque o aprimoramento da sua auditoria: conheça o Oracle Audit Vault Server.
+  Edição que tem como destaque o aprimoramento da sua auditoria: conheça o Oracle Audit Vault Server
+
+
+
+# **SQL com MYSQL**
+
+SGBDR - Sistema de gerenciador de banco de Dados Relacional 
+
+SQL - Structured Query Language
+
+Quais as funções do SQL ?
+
+Fazer consultas 
+
+Gerar Relatórios 
+
+Organizar Dados
+
+Criar Tabela 
+
+Armazenar os Dados 
+
+Manipular os Dados
+
+Modelar o banco 
+
+Abstração de regra de negocio
+
+Permitir o acesso aos dados 
+
+Permite definir os dados no banco de dados e manipulá-los.
+
+Permite criar e excluir os dados 
+
+MYSQL - é um SGBDR usado por milhares de empresas grande e pequenas.
+
+Os comandos SQL 
+
+**DDL - Data definition Language - Comando Descrição**
+
+Create - Cria uma nova tabela
+
+Alter -Modifica  em objeto existente no BD, como uma tabela
+
+Drop - Exclui uma tabela inteira, uma exibição de uma tabela ou outro objeto no Banco de Dados
+
+Ela modifica a estrutura.
+
+**DML - Data Manipulation Language**
+
+Insert - Cria um registros
+
+Update- Modifica registros
+
+Delete - Exclui Registros
+
+Não modifica a estrutura da tabela
+
+**DCL - Data Control Language**
+
+Grant - Dá privilegio a um usuário
+
+Revoke - Retira privilegios 
+
+**DQL - Data Query Language**
+
+Select - obtém registro especificados de uma ou mais tabelas.
+
+
+
+
+
 
