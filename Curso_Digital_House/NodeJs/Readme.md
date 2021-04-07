@@ -55,6 +55,10 @@ para entrar no modulo ctrl +o click no mouse
 
 node aula.js
 
+npm install express -- save
+
+
+
 
 
 
