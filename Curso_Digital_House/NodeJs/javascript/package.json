@@ -4,7 +4,7 @@
   "description": "decola-dev",
   "main": "aulaex.js",
   "scripts": {
-    "start": "nodemon/aulaex.js",
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
