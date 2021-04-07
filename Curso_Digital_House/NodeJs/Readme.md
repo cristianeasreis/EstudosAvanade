@@ -47,6 +47,14 @@ O framework é um pacote de códigos prontos que podem ser utilizados no desenvo
 
 ''**O Node.Js é uma linguagem single thread, em segundo plano, usa vários threads para executar código assíncrono. O Node.Js é non-blocking (Sem bloqueio), o que significa que todas as funções (Retornos de chamada) são delegadas ao loop de eventos e são (ou podem ser)executadas por diferentes segmentos.**''
 
+**Comandos** 
+
+npm init - iniciando
+
+
+
+
+
 
 
 
