@@ -4,7 +4,9 @@ const port = 3000;
 const hostname = 'localhost';
 
 app.get('/', (req, res) =>{
-    res.send('HELLO WORD')
+ const pet = ['cachorro', 'papagaio',  'gato', 'passarinho']
+    res.json(pet)
+    // res.send('HELLO WORD')
 });
 
 app.listen(port,() => {
