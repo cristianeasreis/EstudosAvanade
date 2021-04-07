@@ -51,6 +51,16 @@ O framework é um pacote de códigos prontos que podem ser utilizados no desenvo
 
 npm init - iniciando
 
+para entrar no modulo ctrl +o click no mouse
+
+node aula.js
+
+
+
+
+
+
+
 
 
 
