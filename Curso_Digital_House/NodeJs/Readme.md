@@ -65,6 +65,8 @@ npm install express sequelize mysql2 body-parser cors --save
 
 https://book.cakephp.org/4/pt/controllers/middleware.html
 
+npm init -y  para iniciar o projeto
+
 
 
 
