@@ -61,6 +61,10 @@ npm install nodemon --save-dev
 
 https://insomnia.rest/
 
+npm install express sequelize mysql2 body-parser cors --save
+
+https://book.cakephp.org/4/pt/controllers/middleware.html
+
 
 
 
