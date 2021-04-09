@@ -1,24 +1,25 @@
-  
-const express = require('express');
-const db = require('./models');
-const cors = require('cors');
+const express = require("express");
+const db = require("./models");
+const cors = require("cors");
 const app = express();
 
 app.use(express.json());
-app.use(express.urlencoded({
-  extended: true,
-}));
+app.use(
+  express.urlencoded({
+    extended: true,
+  })
+);
 
 const corsOptions = {
-  origin: 'https://localhost:8081'
+  origin: "https://localhost:8081",
 };
 
 app.use(cors(corsOptions));
 
 db.sequelize.sync();
 
-app.get('/', (req, res) => {
-  res.json({message: 'Say hello to my little friend'})
+app.get("/", (req, res) => {
+  res.json({ message: "Say hello to my little friend" });
 });
 
 const PORT = process.env.PORT || 8080;
