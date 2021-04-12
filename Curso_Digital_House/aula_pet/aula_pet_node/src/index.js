@@ -2,7 +2,11 @@ const express = require('express')
 
 const app = express();
 
-//QUERY
+/**
+* Query params - Vamos utilizar para buscar informações específicas ou toda a informação
+* Route params - Serve para identificar um recurso na nossa rota 
+* Request body - ele serve buscar o corpo da requisição wue deve ser criada ou alterada 
+*/
 
 app.get('/pet',(request,response)=>{
     return response.json('Oi');
