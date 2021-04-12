@@ -16,6 +16,7 @@ const pets = [];
 app.get('/pet',(request,response)=>{
     return response.json(pets);
 });
+
 app.post('/pet',(request,response)=>{
     const {nome, tipoPet, idade, raca, nomeDono} = request.body;
     const pet = {id:uuidv4(),nome, tipoPet, idade, raca, nomeDono};
