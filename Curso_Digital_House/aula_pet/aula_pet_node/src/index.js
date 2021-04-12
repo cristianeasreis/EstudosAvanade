@@ -21,7 +21,6 @@ app.get('/pet',(request,response)=>{
 app.post('/pet',(request,response)=>{
     const {nome,tipoPet,idade,raca,nomeDono} = request.body;
     // const body = request.body; trazer corpo da req
-
     const pet = {id: uuidv4(),nome, tipoPet,idade, raca,nomeDono};
 
     pets.push(pet);
