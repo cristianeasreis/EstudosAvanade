@@ -1,4 +1,5 @@
 const express = require('express')
+const { v4: uuidv4} = require("uuid");
 
 const app = express();
 
@@ -13,10 +14,13 @@ const pets = [];
 */
 
 app.get('/pet',(request,response)=>{
-    return response.json();
+    return response.json(pets);
 });
 app.post('/pet',(request,response)=>{
-    return response.json();
+    const {nome, tipoPet, idade, raca, nomeDono} = request.body;
+    const pet = {id:uuidv4(),nome, tipoPet, idade, raca, nomeDono};
+    pets.push(pet);
+    return response.json(pet);// sempre retornar o pet criado e não o valor
 });
 app.put('/pet/:id',(request,response)=>{
     return response.json();
