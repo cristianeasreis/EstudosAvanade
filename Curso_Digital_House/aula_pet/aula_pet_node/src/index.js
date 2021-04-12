@@ -2,6 +2,10 @@ const express = require('express')
 
 const app = express();
 
+app.use(express.json());
+
+const pets = [];
+
 /**
 * Query params - Vamos utilizar para buscar informações específicas ou toda a informação
 * Route params - Serve para identificar um recurso na nossa rota 
@@ -9,7 +13,7 @@ const app = express();
 */
 
 app.get('/pet',(request,response)=>{
-    return response.json('Oi');
+    return response.json();
 });
 app.post('/pet',(request,response)=>{
     return response.json();
