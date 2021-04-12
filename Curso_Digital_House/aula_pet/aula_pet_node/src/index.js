@@ -29,8 +29,30 @@ app.post('/pet',(request,response)=>{
 });
 
 app.put('/pet/:id',(request,response)=>{
+    const {id} = request.params; // aqui nos pegamos nosso ID
+    const {nome, tipoPet,idade, raca,nomeDono} = request.body; // pega todo escopo das informações
 
-    return response.json();
+    const petIndex = pets.findIndex(pet => pet.id === id);
+
+    if(petIndex < 0){
+        return response.status(400).json({error : "Pet não encontrado!"})
+    }
+
+    const pet = {
+        id,
+        nome, 
+        tipoPet,
+        idade, 
+        raca,
+        nomeDono
+
+    }
+    pets[petIndex] = pet
+
+    return response.json(pet);
+});
+app.delete('/pet/:id',(request,response)=>{
+    return response.json(pet);
 });
 // http://localhost:3030
 app.listen(3030);
