@@ -52,7 +52,18 @@ app.put('/pet/:id',(request,response)=>{
     return response.json(pet);
 });
 app.delete('/pet/:id',(request,response)=>{
-    return response.json(pet);
+    const { id } = request.params;
+
+    const petIndex = pets.findIndex(pet => pet.id === id);
+
+    if(petIndex < 0){
+        return response.status(400).json({error : "Pet não encontrado!"})
+    }
+
+    pets.splice(petIndex, 1);
+
+    return response.status(204).send();
 });
+
 // http://localhost:3030
 app.listen(3030);
