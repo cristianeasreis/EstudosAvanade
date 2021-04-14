@@ -27,4 +27,44 @@ exports.create = (req, res) => {
       });
     });
 };
+exports.findAll = (req, res) => {
+  Tutorial.findAll()
+    .then((data) => {
+      res.send(data);
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message:
+          err.message || "Erro interno ao buscar os tutoriais"
+      });
+    });
+};
+exports.findAllPublished = (req, res) => {
+  Tutorial.findAll({ where: { published: true }})
+    .then((data) => {
+      res.send(data);
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message:
+          err.message || "Erro interno ao buscar os tutoriais"
+      });
+    });
+  };
+  exports.findOne = (req, res) => {
+    Tutorial.findByPk(req.params.id)
+      .then((data) => {
+        res.send(data);
+      })
+      .catch((data) => {
+        res.status(500).send({
+          message: err.message || `Erro ao buscar o id ${req.params.id}`,
+        });
+      });
+  };
+  
+  
+  
+
+
 
