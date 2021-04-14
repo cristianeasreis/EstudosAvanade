@@ -40,7 +40,7 @@ exports.findAll = (req, res) => {
     });
 };
 exports.findAllPublished = (req, res) => {
-  Tutorial.findAll({ where: { published: true }})
+  Tutorial.findAll({ where: { published: true } })
     .then((data) => {
       res.send(data);
     })
@@ -50,21 +50,22 @@ exports.findAllPublished = (req, res) => {
           err.message || "Erro interno ao buscar os tutoriais"
       });
     });
-  };
-  exports.findOne = (req, res) => {
-    Tutorial.findByPk(req.params.id)
-      .then((data) => {
-        res.send(data);
-      })
-      .catch((err) => {
-        res.status(500).send({
-          message: err.message || `Erro ao buscar o id ${req.params.id}`,
-        });
+};
+exports.findOne = (req, res) => {
+  Tutorial.findByPk(req.params.id)
+    .then((data) => {
+      res.send(data);
+    })
+    .catch((err) => {
+      res.status(500).send({
+        message: err.message || `Erro ao buscar o id ${req.params.id}`,
       });
-  };
-  
-  
-  
+    });
+};
+
+
+
+
 
 
 
