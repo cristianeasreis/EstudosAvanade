@@ -56,7 +56,7 @@ exports.findAllPublished = (req, res) => {
       .then((data) => {
         res.send(data);
       })
-      .catch((data) => {
+      .catch((err) => {
         res.status(500).send({
           message: err.message || `Erro ao buscar o id ${req.params.id}`,
         });

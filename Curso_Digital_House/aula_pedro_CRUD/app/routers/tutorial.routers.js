@@ -10,7 +10,7 @@ module.exports = app =>{
     // retorna os tutoriais publicados
     router.get("/published",tutorials.findAllPublished);
    // Retorna um tutorial com id específico
-   router.get("/:id",tutorials.findOne);
+    router.get("/:id",tutorials.findOne);
 
 
 
