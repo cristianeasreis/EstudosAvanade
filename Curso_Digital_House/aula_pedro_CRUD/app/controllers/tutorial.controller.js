@@ -52,16 +52,84 @@ exports.findAllPublished = (req, res) => {
     });
 };
 exports.findOne = (req, res) => {
-  Tutorial.findByPk(req.params.id)
+    const id = req.params.id;
+    Tutorial.findByPk(id)
     .then((data) => {
+      if (!data){
+        res.status(404).send({message : "Id não encontrado"})
+      }
       res.send(data);
     })
+  
     .catch((err) => {
       res.status(500).send({
-        message: err.message || `Erro ao buscar o id ${req.params.id}`,
+        message: err.message || `Erro ao buscar o id ${id}`,
       });
     });
 };
+exports.update = (req, res) => {
+  const id = req.params.id;
+
+  Tutorial.update(req.body, {
+    where: { id: id }
+  })
+    .then(num => {
+      if (num == 1) {
+        res.send({
+          message: "Tutorial atualizado"
+        });
+      } else {
+        res.send({
+          message: `Não foi possível atulizar o tutorial de id: ${id}, tutorial não encontrado ou body vazio`
+        });
+      }
+    })
+    .catch(err => {
+      res.status(500).send({
+        message: `Erro interno ao atualizar o tutorial de id: ${id}`
+      })
+    })
+};
+exports.delete = (req, res) => {
+  const id = req.params.id;
+
+  Tutorial.destroy({
+    where: { id: id }
+  })
+    .then(num => {
+      if (num == 1) {
+        res.send({
+          message: "Tutorial atualizado"
+        });
+      } else {
+        res.send({
+          message: `Não foi possível atulizar o tutorial de id: ${id}, tutorial não encontrado ou body vazio`
+        });
+      }
+    })
+    .catch(err => {
+      res.status(500).send({
+        message: `Erro interno ao atualizar o tutorial de id: ${id}`
+      })
+    })
+};
+exports.deleteAll = (req, res) => {
+  Tutorial.destroy({where: {},
+  truncate: false})
+  .then(nums => {
+    res.send({ message: `${nums} Tutoriais deletados com sucesso`});
+  })
+  .catch(err => {
+    res.status(500).send({
+      message:
+      err.message || "Erro ao deletar todos os tutoriais"
+    });
+  });
+};
+
+
+
+
 
 
 
