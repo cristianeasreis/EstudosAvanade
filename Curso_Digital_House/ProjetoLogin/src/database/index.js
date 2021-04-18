@@ -1,4 +1,4 @@
-import { Sequelize }  from 'sequelize');
+import { Sequelize }  from 'sequelize';
 import { databaseConfig } from '../config/database'; //importar credenciais
 import { User } from '../app/models/User';
 
