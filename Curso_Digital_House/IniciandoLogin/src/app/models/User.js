@@ -20,6 +20,9 @@ class User extends Model {
 		});
 		return this; // sempre vai retornar a model reinicializada
 	}
+	checkPassword(password) {
+		return bcrypt.compare(password, this.password_hash); //vai retornar true caso as senha baterem
+	}
 }
 
 export default User;

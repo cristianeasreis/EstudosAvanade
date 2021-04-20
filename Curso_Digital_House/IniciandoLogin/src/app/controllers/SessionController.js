@@ -1,5 +1,6 @@
 import jwt from 'jsonwebtoken';
 import User from '../models/User';
+import authConfig from '../../config/auth';
 
 
 class SessionController {
@@ -9,9 +10,27 @@ class SessionController {
         const user = await User.findOne({ where: { email } });
 
         if (!user) {
-            return response.status(400).json({ erro: 'Usuário não existe' });
+            return response.status(401).json({ erro: 'Usuário não existe' });
         }
+
+        if (!(await user.checkPassword(password))) {
+            return response.status(401).json({ error: 'Senha não confere' });
+        }
+
+        const { id, name } = user;
+
+        return response.json({
+            user: {
+                id,
+                name,
+                email,
+            },
+            token: jwt.sign({ id }, authConfig.secret, {
+                expiresIn: authConfig.expiresIn,
+            }),
+        });
     }
 }
+
 
 export default new SessionController();
