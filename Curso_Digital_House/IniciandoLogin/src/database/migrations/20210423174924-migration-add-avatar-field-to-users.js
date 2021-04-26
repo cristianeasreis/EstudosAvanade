@@ -1,18 +1,21 @@
-"use strict";
+'use strict';
 
 module.exports = {
-  up: async (queryInterface, Sequelize) => {
-    return queryInterface.addColumn("users", "avatar_id", {
-      id: {
+  up: (queryInterface, Sequelize) => {
+    return queryInterface.addColumn(   
+      'users',
+      'avatar_id',
+      {
         type: Sequelize.INTEGER,
-        allowNull: false,
-        autoIncrement: true,
-        primaryKey: true,
-      },
-    });
+        references: { model: 'files', key: 'id'},  
+        onUpdate: 'CASCADE', 
+        onDelete: 'SET NULL', 
+        alloNull: true,
+      }
+    )
   },
 
-  down: async (queryInterface) => {
-    queryInterface.dropTable("files");
-  },
+  down: (queryInterface) => {
+    return queryInterface.dropTable('file');
+  }
 };

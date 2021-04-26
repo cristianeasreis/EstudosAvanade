@@ -18,10 +18,13 @@ class User extends Model {
 				user.password_hash = await bcrypt.hash(user.password, 0);
 			}
 		});
-		return this; // sempre vai retornar a model reinicializada
+		return this; 
+	}
+	static associate(models) {
+		this.belongsTo(models.File, { foreignKey: 'avatar_id'}); 
 	}
 	checkPassword(password) {
-		return bcrypt.compare(password, this.password_hash); //vai retornar true caso as senha baterem
+		return bcrypt.compare(password, this.password_hash); 
 	}
 }
 
