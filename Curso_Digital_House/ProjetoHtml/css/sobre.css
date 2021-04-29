@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? família=Roboto:wght@300edisplay=swap');
+
 section.banner .container {
     display: flex;
     justify-content: space-around;
@@ -28,6 +30,16 @@ h1{
 .conteudo h2{
     color: #00796B;
     text-transform: uppercase;
+    
+}
+.conteudo1{
+    font-size: 20px;
+    text-align: justify;
+}
+.conteudo1 h2{
+    color: #00796B;
+    text-transform: uppercase;
+    text-align: center;
     
 }
 
