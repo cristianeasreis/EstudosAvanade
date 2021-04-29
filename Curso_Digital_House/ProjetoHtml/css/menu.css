@@ -36,37 +36,15 @@ header nav ul li a{
     max-width: 100%;
     margin: auto;
     margin: 0 auto;
+    display: flex;
 
 }
 main {
     min-height: 85vh;
 }
-          
-section.banner {
-    padding: 50px;
-}
-
-section.banner .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.texto h2{
-    color: #00796B;
-    
-}
-.texto h3{
-    color: #00796B;
-}
-
-
 footer {
     text-align: center;
     background-color:#00796B;
     color: #fff;
     padding: 10px;
 }
-
-
-
-

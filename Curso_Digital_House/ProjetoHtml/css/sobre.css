@@ -1,0 +1,33 @@
+section.banner .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+   
+ 
+}
+
+.texto h2{
+    color: #00796B;
+    
+}
+.texto h3{
+    color: #00796B;
+}
+h1{
+    text-transform: uppercase;
+    padding: 100px;
+    margin: 60px;
+   
+}
+.conteudo{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.conteudo h2{
+    color: #00796B;
+    text-transform: uppercase;
+    
+}
+
