@@ -81,6 +81,16 @@ section.video-sobre iframe{
     height: 600px;
 
 }
+.texto1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
 
 
 
