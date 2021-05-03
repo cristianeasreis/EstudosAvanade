@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Groud Up</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!-- cabeçalho -->
+      <!-- cabeçalho -->
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="/img/logo-.png" alt="Grwo up" />
+        </a>
+        <nav>
+          <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
         <div class="container">
-          <a href="index.html" class="logo">
-            <img src="/img/logo-.png" alt="Grwo up" />
-          </a>
-  
-          <nav>
-            <ul>
-              <li><a href="sobre.html">Sobre</a></li>
-              <li><a href="servicos.html">Serviços</a></li>
-              <li><a href="contato.html">Contato</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <main>
-          <section class="">
-              <div class="container"> 
-                  <h1>Contato</h1>
-              </div>
+          <h1>Contato</h1>
 
-          </section>
-      </main>
-      <footer>
-        <!-- rodapé -->
-        <p>copyright - Grow Up </p>
+          <div class="contato">
+            <form method="POST">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome"name="nome" required>
+
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="mensagem">Mensagem</label>
+              <textarea name="mensagem" id="mensagem"  required></textarea>            
+
+              <!-- <input type="submit" value="Enviar"> -->
+             <button type="submit">Enviar</button>
+            </form>
+            <div class="info">
+              <!-- aqui vem informações de contato mapa -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- rodapé -->
+      <p>copyright - Grow Up</p>
     </footer>
-    
-</body>
+  </body>
 </html>
