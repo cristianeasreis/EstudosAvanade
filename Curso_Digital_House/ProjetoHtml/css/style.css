@@ -158,6 +158,32 @@ main h1 {
     width: 700px;
     height: 300px;
 }
+/* ORCAMENTO */
+
+.orcamento{
+    display: flex;
+    justify-content: center;
+
+}
+.orcamento form label{
+    margin: 10px 0 5px;
+    display: inline-block;
+}
+.orcamento form input:not([type="radio"]),
+.orcamento form textarea
+{
+    width: 100%;
+    padding: 5px;
+}
+.orcamento form button{
+    border: none;
+    background-color: #00796B;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    margin: 15px 0;
+}
 
 
 
