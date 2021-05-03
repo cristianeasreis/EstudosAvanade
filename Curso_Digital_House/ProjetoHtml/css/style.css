@@ -128,7 +128,7 @@ main h1 {
     justify-content: space-between;
 }
 
-.contato form input,
+.contato form input:not([type="radio"]),
 .contato form textarea {
     width: 100%;
     padding: 5px;
