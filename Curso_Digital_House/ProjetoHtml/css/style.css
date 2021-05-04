@@ -129,8 +129,7 @@ main h1 {
 }
 
 .contato form input:not([type="radio"]),
-.contato form textarea
- {
+.contato form textarea {
     width: 100%;
     padding: 5px;
 }
@@ -159,28 +158,35 @@ main h1 {
     width: 700px;
     height: 300px;
 }
+
 /* ORCAMENTO */
 
-.orcamento{
+.orcamento {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: auto;
 
 }
-.orcamento form label{
+
+.orcamento form label {
     margin: 10px 0 5px;
     display: inline-block;
 }
 
-.orcamento form input:not([type="radio"],[type="checkbox"]),
-.orcamento form textarea{
-
+.orcamento form input:not([type="radio"], [type="checkbox"]),
+.orcamento form textarea,
+.orcamento form select {
     width: 100%;
     padding: 10px;
-    }
+}
+.orcamento form input:focus,
+.orcamento form textarea:focus,
+.orcamento form select:focus{
+    outline-color: #00796B;
+}
 
-.orcamento form button{
+.orcamento form button {
     border: none;
     background-color: #00796B;
     color: white;
@@ -189,11 +195,3 @@ main h1 {
     width: 100%;
     margin: 15px 0;
 }
-
-
-
-
-
-
-
-

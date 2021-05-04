@@ -44,15 +44,46 @@
       
                     <label for="descricao">Descrição</label>
                     <textarea name="descricao" id="descricao" ></textarea>
-      
+
+                    <label for="anexos">Anexos</label>
+                    <input type="file" name="anexos" id="anexos">
+
+                    <label for="publico_alvo">Qual é o publico alvo do seu projeto</label>
+                    <input type="text" name="publico_alvo" id="publico_alvo">                
+                 
+                    <label for="forma_pagamento">Forma de pagamento</label>
+                    <select name="forma_pagamento" id="forma_pagamento">                 
+                    <option selected  disabled>Selecione uma opção</option>
+                    <option value="Debito">Debitos</option>
+                    <option value="Crédito">Credito</option>
+                    <option value="Transferencia bancaria">Transferencia bancaria</option>
+                    <option value="Boleto">Boleto</option>
+                    </select>
+                    
+                    <label for="origem_cliente">Como conheceu a Grow Up?</label>
+                    <select name="origem_cliente" id="origem_cliente">
+                      <option selected disabled>Selecione uma opcão</option>
+                      <option value="Facebook">Facebook</option>
+                      <option value="Instagram">Instagram</option>
+                      <option value="LinkedIn">LinkedIn</option>
+                      <option value="Google">Google</option>
+                      <option value="Amarelinho">Amarelinho</option>
+                      <option value="Outro">Outro</option>
+                    </select>
+
                     <p>Urgência Na Entrega:</p>
                     
                     <input type="radio" name="assunto" id="assunto_urgente" value="sim">
-                        <label for="assunto_urgente">Sim</label>
+                    <label for="assunto_urgente">Sim</label>
 
-                        <input type="radio" name="assunto" id="assunto_urgente" value="nao">
-                        <label for="assunto_urgente">Não</label>
-                        <p>Selecione o  Serviço:</p>
+                    <input type="radio" name="assunto" id="assunto_urgente" value="nao">
+                    <label for="assunto_urgente">Não</label>
+
+                    <label for="data_entrega">Data de Entrega</label>
+                    <input type="date" name="data_entrega" id="data_entrega">
+
+                    <p>Selecione o  Serviço:</p>
+
                     <input type="checkbox" name="assunto" id="assunto_desenvolvimentoweb" value="Desenvolvimento Web">
                     <label for="assunto_desenvolvimentoweb">Desenvolvimento Web</label>
                     <br>
@@ -61,7 +92,7 @@
                     <br>
                     <input type="checkbox" name="assunto" id="assunto_ux" value="Consultoria Ux">
                     <label for="assunto_ux">Consultoria Ux</label>
-      
+
                     <!-- <input type="submit" value="enviar"> -->
                     <button type="submit">Enviar</button>
                   </form>
