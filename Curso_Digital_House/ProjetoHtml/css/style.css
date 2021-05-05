@@ -241,6 +241,7 @@ main h1 {
     margin: 15px 0;
 }
 
+/* ANIMAÇÕES */
 @keyframes flutuar {
     0% {
         transform: translateY(0);
@@ -262,6 +263,7 @@ main h1 {
     max-width: 100%;
 }
 
+/* RESPONSIVIDADE */
 @media(max-width:900px) {
 
     section.banner .container,
