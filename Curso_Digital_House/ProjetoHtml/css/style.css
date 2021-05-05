@@ -72,14 +72,16 @@ header nav ul li a {
     display: inline-block;
     text-decoration: none;
     transition: all 0.5s;
+    box-shadow: 0px 5px 6px rgb(0 0 0 / 30%);
+    cursor: pointer;
+    margin: 20px;
+
 }
 
 .btn-primary:hover {
-    background-color: aquamarine;
-    color: black;
-
-
+    background-color: #61b6ac;
 }
+
 
 main {
     min-height: 80vh;
@@ -94,6 +96,7 @@ section.banner .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 
@@ -144,7 +147,8 @@ section.missao-visao-valores article {
 /* SERVIÇOS */
 section.desenvolvimento .container,
 section.marketing .container,
-section.consultoria-ux .container {
+section.consultoria-ux .container,
+    {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -254,4 +258,74 @@ main h1 {
 
 .img-destaque {
     animation: flutuar 3s infinite;
+    width: 500px;
+    max-width: 100%;
+}
+
+@media(max-width:900px) {
+
+    section.banner .container,
+    section.introducao-sobre .container .intro,
+    section.desenvolvimento .container,
+    section.marketing .container,
+    section.consultoria-ux .container,
+    .contato,
+    .orcamento {
+
+        flex-wrap: wrap;
+
+    }
+
+    section.desenvolvimento .container,
+    section.marketing .container,
+    section.consultoria-ux .container {
+        text-align: center;
+    }
+
+    section.consultoria-ux .container,
+    section.desenvolvimento.container,
+    section.marketing .container,
+    .contato,
+    .orcamento {
+        padding: 0 40px 40px;
+
+    }
+
+    .txt {
+        text-align: center;
+    }
+
+
+    section.introducao-sobre {
+        padding: 0 40px;
+    }
+
+    section.video-sobre iframe {
+        height: 400px;
+        padding: 40px;
+
+    }
+
+    section.banner .container .texto {
+        text-align: center;
+    }
+
+    section.banner {
+        padding: 0 40px 40px;
+    }
+
+
+}
+
+@media(max-width: 515px) {
+    header .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
 }
